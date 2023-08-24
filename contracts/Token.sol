@@ -7,7 +7,6 @@ contract Token {
     uint256 public totalSupply;
 
     mapping(address => uint256) private balances;
-    mapping(address => mapping(address => uint256)) private allowances;
 
     address public owner;
 
